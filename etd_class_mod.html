@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html >
+
+    <head>
+
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="theme-color" content="rgb(79, 207, 201)"/>
+      
+       <title>Etd_Class_Modules</title>
+       <link rel="icon" type="image/png" href="img/ml3.png">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
+
+       <link rel="stylesheet" href="style.css">
+
+     <style>
+      .etd_info_donnee{  width: auto; background:  #ececec; color: ; padding: 4px 20px; font-size: 18px;}
+      
+     </style>
+   </head>
+
+   <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+   
+<body id="all0" >
+
+<!-- ==============================   HEADER    ===================================================== -->    
+<header id="id1"  >
+      <a class="titre" href="">ModuLine</a>
+      <form class="example" action="">
+          <input type="text" placeholder=" Recharche..." name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+      <button class="butotn-connecter déconn"  onclick="window.location.href = 'index.html';"><b>Déconnexion</b></button>
+</header>
+<!-- ==============================   NAVBAR    ===================================================== -->
+<div style="width: 100%; height: 50px; background:#c47878 ; "></div>
+
+<nav class="navbar" style="background: ;">
+    <!-- LOGO -->
+    <div class="univ-ouargla" >
+      <a href="https://www.univ-ouargla.dz/" style=""> Université Kasdi Merbah Ouargla </a>
+      <p  style=""> Ouargla, Wilaya de Ouargla, Algeria</p>
+    </div>
+    <!-- NAVIGATION MENU -->
+    <ul class="nav-links" >
+      <!-- USING CHECKBOX HACK -->
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+      <!-- NAVIGATION MENUS -->
+      <div class="menu" >
+        <li class="services"><a href="#" style="">NOTRE SITE</a>
+          <ul class="dropdown">
+            <li><a href="#" > Présentation</a></li>
+            <li><a href="#">Fonctionnement</a></li>
+            <li><a href="#">Organes de MODULINE</a></li>
+            <li><a href="#">Informations pratiques</a></li>
+            <li><a href="#">Oeuvres sociales</a></li>
+          </ul>
+        </li>
+        <li class="services"><a href="#" style="">FORMATION</a>
+          <ul class="dropdown">
+            <li><a href="#">Offres de formation</a></li>
+            <li><a href="#">Comprendre le LMD</a></li>
+            <li><a href="#">Stages</a></li>
+            <li><a onclick="window.location.href = '/MySite/S’inscrire.html';" style="cursor: pointer;">S'inscrire à l'MODULINE</a></li>
+            <li><a href="#">Tutorat</a></li>
+          </ul>
+        </li>
+        <li class="services">
+          <a href="#" style="">DOCUMENTATION</a>
+          <!-- DROPDOWN MENU -->
+          <ul class="dropdown">
+            <li><a href="https://libgen.li/">Documentation en ligne</a></li>
+            <li><a href="#">Publications</a></li>
+            <li><a href="#">Production Scientifique</a></li>
+            <li><a href="https://www.bibliouniv.cerist.dz/">Bibliothèques Universitaires Algériènnes</a></li>
+          </ul>
+        </li>
+        <!-- <li><a  href="index.html" class="fa fa-home"></a></li> -->
+      </div>
+    </ul>
+</nav>
+<!-- ==============================   PARAMÈTRES  "left"  ===================================================== -->
+<div class="center_outil" style="height: 700px; background: ;">
+       
+    <div  class="accordion_général" style="background: ;"> 
+      
+      <button class="accordion" onclick="window.location.href = '/MySite/etudiant.html';" > Mon emploi</button>
+      <div class="panel"></div>
+
+      <button class="accordion"> Ma classe</button>
+       <div class="panell" >
+         <button class="accor acc" onclick="window.location.href = '/MySite/etd_profile.html';"  >  Profile</button>
+         <button class="accor acc" onclick="window.location.href = '/MySite/etd_class_prof.html';"  >  Les professeurs</button>
+         <button class="accor acc" onclick="window.location.href = '/MySite/etd_class_mod.html';" style="background:  rgb(122, 179, 176) ; color: #fff;">  Les modules</button>
+         <button class="accor acc" onclick="window.location.href = '/MySite/etd_class_etd.html';" >  L'étudiants</button>
+       </div>
+
+       <button class="accordion"> Les emplois</button>
+        <div class="panel">
+         <button class="accor acc" onclick="window.location.href = '/MySite/etd_emp_grp.html';" > Les groups</button>
+         <button class="accor acc" onclick="window.location.href = '/MySite/etd_emp_prof.html';" > Les professeurs</button>
+        </div>
+         
+        <button class="accordion"> Les cours</button>
+        <div class="panel">
+         <button class="accor acc" onclick="window.location.href = '/MySite/etd_cour_cour.html';" > Cour</button>
+         <button class="accor acc" onclick="window.location.href = '/MySite/etd_cour_td.html';" > TD</button>
+         <button class="accor acc" onclick="window.location.href = '/MySite/etd_cour_tp.html';" > TP</button>
+         <button class="accor acc" onclick="window.location.href = '/MySite/etd_cour_docu.html';" > Documentation</button>
+         <button class="accor acc" onclick="window.location.href = '/MySite/etd_cour_exam.html';" > Anciens Examens</button>
+        </div>
+
+        <button class="accordion">  Délibération</button>
+        <div class="panel">
+            <button class="accor acc" onclick="window.location.href = '/MySite/etd_déli_note.html';" > les notes</button>
+        </div>
+
+       <button class="accordion" id="myBtn">  Contactez-nous</button>
+       <div class="panel">
+       </div>
+
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+             
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+ <!-- Modal content -->
+ <div class="modal-content">
+   <span class="close">&times;</span>
+                                           
+       <div class="container">
+ <form action="/action_page.php">
+   
+   <select id="country" name="country" >
+     <option >Qui être-vous </option>
+     <option value="australia">Admin</option>
+     <option value="canada">Enseignant</option>
+     <option value="usa">Etudiant</option>
+   </select>
+   <input type="numbre" id="fname" name="numbre" placeholder="  Matricule" required>
+   <textarea id="subject" name="subject" placeholder="   Message..." style="height:150px" required></textarea>
+   <input type="submit" value="Enveyer">
+     <input type="reset" class="réinilialiser">
+ </form>
+       </div>
+
+ </div>
+
+</div>
+</div>
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+<div style=" width:80% ; height: 100%; background: ;  padding: 5px;   position: absolute; right: 10px;">
+
+ 
+        <form class="etd_form" action="" style="background: ; width: 96%; height: auto; margin: auto; ">
+                 <div style="width: 80%; height: 680px; background: #fff; position: absolute; right: 7%; overflow: auto;  " >
+                    <h4  class="etd_titre" > Les modules</h4>
+                    <table style="width: 100%; padding: 10px 0px;">
+                        
+                        <tr>
+                            <td class="etd_info_donnee" style=" font-size: 17px; letter-spacing: 2px; background: rgb(192, 192, 192);">Module</td>
+                            <td class="etd_info_donnee" style=" font-size: 17px; letter-spacing: 2px; background: rgb(192, 192, 192);"> Coefficient</td>
+                            
+                        </tr> 
+                        <tr>
+                            <td colspan="2" class="etd_info_donnee" style=" text-align: center; background: rgb(218, 218, 218);"><h4>Semester 5  &nbsp : &nbsp 3 informatique</h4></td>
+                        </tr>
+                        <tr>
+                            <td class="etd_info_donnee" style=" ">Compilation</td>
+                            <td class="etd_info_donnee" style=" ">3</td>
+                        </tr> 
+                        <tr>
+                            <td class="etd_info_donnee" style=" ">Génie Logicielle (GL)</td>
+                            <td class="etd_info_donnee" style=" ">3</td>
+                        </tr> 
+                        <tr>
+                            <td class="etd_info_donnee" style=" ">Interface Homme Machine (IHM)</td>
+                            <td class="etd_info_donnee" style=" ">3</td>
+                        </tr> 
+                        <tr>
+                            <td class="etd_info_donnee" style=" ">Programmation Linéare (PL)</td>
+                            <td class="etd_info_donnee" style=" ">3</td>
+                        </tr> 
+                        <tr>
+                            <td class="etd_info_donnee" style=" ">Economy</td>
+                            <td class="etd_info_donnee" style=" ">3</td>
+                        </tr> 
+                        <tr>
+                            <td class="etd_info_donnee" style=" ">Probabilty Statistics (PS)</td>
+                            <td class="etd_info_donnee" style=" ">3</td>
+                        </tr> 
+                        
+                        <tr>
+                            <td class="etd_info_donnee" style=" ">Système d'expliotaion (SE2)</td>
+                            <td class="etd_info_donnee" style=" ">3</td>
+                        </tr> 
+
+                         <!-- ======================================================================= -->
+                        <tr>
+                            <td colspan="2" class="etd_info_donnee" style=" text-align: center ;background: rgb(218, 218, 218);""><h4>Semester 6  &nbsp : &nbsp 3 informatique</h4></td>
+                        </tr>
+                        <tr>
+                            <td class="etd_info_donnee" style=" ">Artificial Intelligence (AI)</td>
+                            <td class="etd_info_donnee" style=" ">3</td>
+                        </tr>
+                        <tr>
+                            <td class="etd_info_donnee" style=" ">Application Mobile (AM)</td>
+                            <td class="etd_info_donnee" style=" ">3</td>
+                        </tr>
+                        <tr>
+                            <td class="etd_info_donnee" style=" "> Données Semi-Structurées (DSS)</td>
+                            <td class="etd_info_donnee" style=" ">3</td>
+                        </tr>
+                        <tr>
+                            <td class="etd_info_donnee" style=" ">Redaction Scientifique (RS)</td>
+                            <td class="etd_info_donnee" style=" ">3</td>
+                        </tr>
+                        <tr>
+                            <td class="etd_info_donnee" style=" ">Security</td>
+                            <td class="etd_info_donnee" style=" ">3</td>
+                        </tr>
+                        <tr>
+                            <td class="etd_info_donnee" style=" ">Startup</td>
+                            <td class="etd_info_donnee" style=" ">3</td>
+                        </tr>
+                        
+                    </table>
+                </div>   
+    </form>
+</div> 
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+</div>
+
+<div style="width: 100%; height: auto; background:#c47878 ; "> 
+           
+</div>
+<!-- ==============================   FOOTER    ===================================================== -->
+<footer class="etd-foot"  >
+        <div class="etd_foot1" >
+            <div class="etd_foot11" >
+                
+                    <h3 style="background-color:; font-family: Lato, sans-serif;font-weight: 100;color: white; font-size: 25px; color:  #56b3c4; ">Liens directs</h3>
+                    <br>
+                    <ul style="line-height:180% ;  font-family: Lato, sans-serif; font-size: 14px;color: white;">
+                        <li><a id="li1"  href="Connecter.html">&nbsp;Espace numérique de travail</a></li>
+                        <li><a id="li1"  href="#">&nbsp;Messagerie</a></li>
+                    </ul>
+                
+            </div>
+
+            <div class="etd_foot12" >
+                <h3 style="background-color:; font-family: Lato, sans-serif;font-weight: 100;color: white; font-size: 25px; color:  #56b3c4;">Coordonnées</h3><br>
+                <ul style="line-height:180%">
+                  <li id="li3"  ><i  style="color: white;" class="fa fa-phone"></i>  &nbsp &nbsp   Tél   +213 (0) 29 71 19 02 / +213 (0) 29 71 24 68 &nbsp&nbsp</li>
+                  <li id="li3"  ><i style="color: white;" class="fa fa-fax"></i>  &nbsp &nbsp Fax &nbsp  +213 (0) 29 71 36 54 </li>
+                  <li id="li3" ><i style="color: white;" class="fa fa-envelope"></i> &nbsp &nbsp  contact@univ-ouargla.dz</li>
+                  <li id="li3" ><i style="color: white;" class="fa fa-map"></i>  &nbsp &nbsp   BP 511 Route de Ghardaia,  30 000 - OUARGLA. </li>
+                </ul> 
+            </div>
+
+            <div class="etd_foot13" >
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a id="li1" style="font-size: 150%;" href="https://www.facebook.com/media.univouargla" class="fa fa-facebook"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a id="li1" style="font-size: 150%;" href="https://twitter.com/univogxav" class="fa fa-twitter"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a id="li1" style="font-size: 150%;" href="https://www.linkedin.com/in/universit%C3%A9-kasdi-merbah-ouargla-official-6477ab237/" class="fa fa-linkedin"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a id="li1" style="font-size: 150%;" href="https://www.youtube.com/channel/UC_33PpCOyB6uXDNq_8znLqg" class="fa fa-youtube"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                
+            </div>
+        </div>
+
+</footer>
+<!-- ================================================================================================ -->
+    <script src="script.js"></script>
+</body>
+</html>

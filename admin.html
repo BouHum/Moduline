@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html >
+
+    <head>
+
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="theme-color" content="rgb(79, 207, 201)"/>
+      
+       <title>Admin</title>
+       <link rel="icon" type="image/png" href="img/ml3.png">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
+
+       <link rel="stylesheet" href="style.css">
+
+     <style>
+      .etd_info_donnee{  background:  #ececec; color: ; padding: 4px 20px; font-size: 18px;}
+      
+     </style>
+   </head>
+
+   <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+   
+<body id="all0" >
+
+<!-- ==============================   HEADER    ===================================================== -->    
+<header id="id1"  >
+      <a class="titre" href="">ModuLine</a>
+      <form class="example" action="">
+          <input type="text" placeholder=" Recharche..." name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+      <button class="butotn-connecter déconn"  onclick="window.location.href = 'index.html';"><b>Déconnexion</b></button>
+</header>
+<!-- ==============================   NAVBAR    ===================================================== -->
+<div style="width: 100%; height: 50px; background:#c47878 ; "></div>
+
+<nav class="navbar" style="background: ;">
+    <!-- LOGO -->
+    <div class="univ-ouargla" >
+      <a href="https://www.univ-ouargla.dz/" style=""> Université Kasdi Merbah Ouargla </a>
+      <p  style=""> Ouargla, Wilaya de Ouargla, Algeria</p>
+    </div>
+    <!-- NAVIGATION MENU -->
+    <ul class="nav-links" >
+      <!-- USING CHECKBOX HACK -->
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+      <!-- NAVIGATION MENUS -->
+      <div class="menu" >
+        <li class="services"><a href="#" style="">NOTRE SITE</a>
+          <ul class="dropdown">
+            <li><a href="#" > Présentation</a></li>
+            <li><a href="#">Fonctionnement</a></li>
+            <li><a href="#">Organes de MODULINE</a></li>
+            <li><a href="#">Informations pratiques</a></li>
+            <li><a href="#">Oeuvres sociales</a></li>
+          </ul>
+        </li>
+        <li class="services"><a href="#" style="">FORMATION</a>
+          <ul class="dropdown">
+            <li><a href="#">Offres de formation</a></li>
+            <li><a href="#">Comprendre le LMD</a></li>
+            <li><a href="#">Stages</a></li>
+            <li><a onclick="window.location.href = '/MySite/S’inscrire.html';" style="cursor: pointer;">S'inscrire à l'MODULINE</a></li>
+            <li><a href="#">Tutorat</a></li>
+          </ul>
+        </li>
+        <li class="services">
+          <a href="#" style="">DOCUMENTATION</a>
+          <!-- DROPDOWN MENU -->
+          <ul class="dropdown">
+            <li><a href="https://libgen.li/">Documentation en ligne</a></li>
+            <li><a href="#">Publications</a></li>
+            <li><a href="#">Production Scientifique</a></li>
+            <li><a href="https://www.bibliouniv.cerist.dz/">Bibliothèques Universitaires Algériènnes</a></li>
+          </ul>
+        </li>
+        <!-- <li><a  href="index.html" class="fa fa-home"></a></li> -->
+      </div>
+    </ul>
+</nav>
+<!-- ==============================   PARAMÈTRES  "left"  ===================================================== -->
+<div class="center_outil">
+       
+    <div  class="accordion_général"> 
+
+      <button class="accordion" onclick="window.location.href = '/MySite/admin.html';" style="background: rgb(238, 238, 238); color: #206b77; border-top: 4px solid #206b77 ;"> Profile</button>
+      <div class="panel">
+      </div>
+
+        <button class="accordion" onclick="window.location.href = '/MySite/admin_gér-ens.html';" > Gérer les enseignants</button>
+        <div class="panel">
+        </div>
+
+        <button class="accordion" onclick="window.location.href = '/MySite/admin_gér-etd.html';" > Gérer les étudiants</button>
+        <div class="panel">
+        </div>
+
+        <button class="accordion" onclick="window.location.href = '/MySite/admin_gér-grp.html';" >Gérer un groupe</button>
+        <div class="panel">
+        </div>
+
+        <button class="accordion" > Gérer les emplois du temps</button>
+        <div class="panel">
+            <button class="accor acc"  onclick="window.location.href = '/MySite/admin_gér-emp_ens.html';" >L'enseignants</button>
+            <button class="accor acc"  onclick="window.location.href = '/MySite/admin_gér-emp_etd.html';" >L'étudiants</button>
+        </div>
+        
+  
+    
+        <button class="accordion" onclick="window.location.href = '/MySite/admin_Boite-réc.html';">  Boîte de réception</button>
+        <div class="panel">
+        </div>
+
+       <button class="accordion" id="myBtn">  Contactez-nous</button>
+       <div class="panel">
+       </div>
+
+  <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+               
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+  
+   <!-- Modal content -->
+   <div class="modal-content">
+     <span class="close">&times;</span>
+                                             
+         <div class="container">
+   <form action="/action_page.php">
+     
+     <select id="country" name="country" >
+       <option >Qui être-vous </option>
+       <option value="australia">Admin</option>
+       <option value="canada">Enseignant</option>
+       <option value="usa">Etudiant</option>
+     </select>
+     <input type="numbre" id="fname" name="numbre" placeholder="  Matricule" required>
+     <textarea id="subject" name="subject" placeholder="   Message..." style="height:150px" required></textarea>
+     <input type="submit" value="Enveyer">
+       <input type="reset" class="réinilialiser">
+   </form>
+         </div>
+  
+   </div>
+  
+  </div>
+  </div>
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<div style=" width:77% ; height: 100%; background: transparent;  padding: 5px;   position: absolute; right: 0;">
+
+    <form class="etd_form" action="" style="background: ;">
+        
+        
+                 <div style="width: 80%; height: auto; background: #fff; margin: auto;   " >
+                    <h4  class="etd_titre" > Profile</h4>
+                    <table style="width: 100%; padding: 10px 0px;">
+                        
+                        <tr>
+                            <td class="etd_info_donnee" style="">ID_admin</td>
+                            <td class="etd_info_donnee"></td>
+                        </tr>
+                        <tr>
+                            <td class="etd_info_donnee">Nom & Prénom</td>
+                            <td class="etd_info_donnee"></td>
+                        </tr>
+                       
+                        <tr>
+                            <td class="etd_info_donnee">E-mail</td>
+                            <td class="etd_info_donnee"></td>
+                        </tr>
+                        <tr>
+                            <td class="etd_info_donnee">Faculté</td>
+                            <td class="etd_info_donnee"></td>
+                        </tr>
+                       
+                        
+                        
+                    </table>
+                </div>   
+    </form>
+</div> 
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+</div>
+
+<!-- <div style="width: 100%; height: 50px; background:#c47878 ; "> <i class="material-icons">attachment</i> </div> -->
+<!-- ==============================   FOOTER    ===================================================== -->
+<footer class="etd-foot"  >
+        <div class="etd_foot1" >
+            <div class="etd_foot11" >
+                
+                    <h3 style="background-color:; font-family: Lato, sans-serif;font-weight: 100;color: white; font-size: 25px; color:  #56b3c4; ">Liens directs</h3>
+                    <br>
+                    <ul style="line-height:180% ;  font-family: Lato, sans-serif; font-size: 14px;color: white;">
+                        <li><a id="li1"  href="Connecter.html">&nbsp;Espace numérique de travail</a></li>
+                        <li><a id="li1"  href="#">&nbsp;Messagerie</a></li>
+                    </ul>
+                
+            </div>
+
+            <div class="etd_foot12" >
+                <h3 style="background-color:; font-family: Lato, sans-serif;font-weight: 100;color: white; font-size: 25px; color:  #56b3c4;">Coordonnées</h3><br>
+                <ul style="line-height:180%">
+                  <li id="li3"  ><i  style="color: white;" class="fa fa-phone"></i>  &nbsp &nbsp   Tél   +213 (0) 29 71 19 02 / +213 (0) 29 71 24 68 &nbsp&nbsp</li>
+                  <li id="li3"  ><i style="color: white;" class="fa fa-fax"></i>  &nbsp &nbsp Fax &nbsp  +213 (0) 29 71 36 54 </li>
+                  <li id="li3" ><i style="color: white;" class="fa fa-envelope"></i> &nbsp &nbsp  contact@univ-ouargla.dz</li>
+                  <li id="li3" ><i style="color: white;" class="fa fa-map"></i>  &nbsp &nbsp   BP 511 Route de Ghardaia,  30 000 - OUARGLA. </li>
+                </ul> 
+            </div>
+
+            <div class="etd_foot13" >
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a id="li1" style="font-size: 150%;" href="https://www.facebook.com/media.univouargla" class="fa fa-facebook"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a id="li1" style="font-size: 150%;" href="https://twitter.com/univogxav" class="fa fa-twitter"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a id="li1" style="font-size: 150%;" href="https://www.linkedin.com/in/universit%C3%A9-kasdi-merbah-ouargla-official-6477ab237/" class="fa fa-linkedin"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a id="li1" style="font-size: 150%;" href="https://www.youtube.com/channel/UC_33PpCOyB6uXDNq_8znLqg" class="fa fa-youtube"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                
+            </div>
+        </div>
+
+</footer>
+<!-- ================================================================================================ -->
+    <script src="script.js"></script>
+</body>
+</html>

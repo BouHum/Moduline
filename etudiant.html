@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html >
+
+    <head>
+
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="theme-color" content="rgb(79, 207, 201)"/>
+        
+      
+       <title>Etudiant</title>
+       <link rel="icon" type="image/png" href="img/ml3.png">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          
+       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
+
+       <link rel="stylesheet" href="style.css">
+
+     <style>
+
+     </style>
+   </head>
+   <!--==============================================================================================-->
+   
+<body id="all0" >
+    
+<header id="id1"  >
+      <a class="titre" href="">ModuLine</a>
+      <form class="example" action="">
+          <input type="text" placeholder=" Recharche..." name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+      <button class="butotn-connecter déconn"  onclick="window.location.href = 'index.html';"><b>Déconnexion</b></button>
+</header>
+
+
+<div style="width: 100%; height: 50px; background:#c47878 ; "></div>
+<nav class="navbar" style="background: ;">
+    <!-- LOGO -->
+    <div class="univ-ouargla" >
+      <a href="https://www.univ-ouargla.dz/" style=""> Université Kasdi Merbah Ouargla </a>
+      <p  style=""> Ouargla, Wilaya de Ouargla, Algeria</p>
+    </div>
+    <!-- NAVIGATION MENU -->
+    <ul class="nav-links" >
+      <!-- USING CHECKBOX HACK -->
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+      <!-- NAVIGATION MENUS -->
+      <div class="menu" >
+        <li class="services"><a href="#" style="">NOTRE SITE</a>
+          <ul class="dropdown">
+            <li><a href="#" > Présentation</a></li>
+            <li><a href="#">Fonctionnement</a></li>
+            <li><a href="#">Organes de MODULINE</a></li>
+            <li><a href="#">Informations pratiques</a></li>
+            <li><a href="#">Oeuvres sociales</a></li>
+          </ul>
+        </li>
+        <li class="services"><a href="#" style="">FORMATION</a>
+          <ul class="dropdown">
+            <li><a href="#">Offres de formation</a></li>
+            <li><a href="#">Comprendre le LMD</a></li>
+            <li><a href="#">Stages</a></li>
+            <li><a onclick="window.location.href = '/MySite/S’inscrire.html';" style="cursor: pointer;">S'inscrire à l'MODULINE</a></li>
+            <li><a href="#">Tutorat</a></li>
+          </ul>
+        </li>
+        <li class="services">
+          <a href="#" style="">DOCUMENTATION</a>
+          <!-- DROPDOWN MENU -->
+          <ul class="dropdown">
+            <li><a href="https://libgen.li/">Documentation en ligne</a></li>
+            <li><a href="#">Publications</a></li>
+            <li><a href="#">Production Scientifique</a></li>
+            <li><a href="https://www.bibliouniv.cerist.dz/">Bibliothèques Universitaires Algériènnes</a></li>
+          </ul>
+        </li>
+        <!-- <li><a  href="index.html" class="fa fa-home"></a></li> -->
+      </div>
+    </ul>
+  </nav>
+  
+<!-- 
+<section class="etd_sec" >
+
+<div class="etd_emp" >
+    
+    <form class="etd_info" >
+       <h4  class="etd_titre" > L'ENSEIGNANTES</h4>
+       <h5 class="etd_info_donnee" style="height: 10px;"></h5>
+       <h5 class="etd_info_donnee">NOM & PRENOM :</h5>
+       
+       <h5 class="etd_info_donnee">FILIERE :</h5>
+       <h5 class="etd_info_donnee">SPECIALITE :</h5>
+      
+    </form>
+ 
+    <form class="etd_form" action="">
+       
+        <table class="etd_tabl" border="0" cellspacing="0" align="center" >
+            
+            <tr  class="ftr htr empl" >
+                <td colspan="8"> EMPLOI DU TEMPS </td>  
+            </tr>
+               <tr  class="ftr htr"  >
+                <td>TEMPS</td>    <td>Sam</td>  <td>Dim</td>  <td>Lun</td>  <td>Mar</td>  <td>Mer</td>  <td>Jeu</td>  
+               </tr>
+               <tr >
+                <td class="ftr" >08:00 - 09:30</td>   <td><button > 2L.INFO / A3 </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>
+               </tr>
+               <tr >
+                <td class="ftr">09:40 - 11:10</td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>
+               </tr>
+               <tr >
+                <td class="ftr">11:20 - 12:50</td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>
+               </tr>
+               <tr >
+                <td class="ftr">13:00 - 14:30</td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>
+               </tr>
+               <tr >
+                <td class="ftr">14:40 - 16:10</td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>
+               </tr>
+               <tr >
+                <td class="ftr">16:20 - 17:50</td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>
+               </tr>
+               
+         </table>
+         
+    </form>
+</div>
+
+<main class="etd_main" >
+    <img  src="img/ml3.png" alt="logo">
+      
+              <button onclick="window.location.href = 'S’inscrire.html';"  id="etdmainbutt1" > Ajouter</button>
+              <button onclick="window.location.href = '#';"  > Modifier</button>
+              <button onclick="window.location.href = '#';"  > Supprimer</button>
+              <button onclick="window.location.href = '#';"  > Supprimer</button>
+              <button onclick="window.location.href = '#';"  > Supprimer</button>
+              
+</main>
+
+</section> -->
+
+
+<div class="center_outil">
+       
+     <div  class="accordion_général"> 
+      
+
+       <button class="accordion" onclick="window.location.href = '/MySite/etudiant.html';" > Mon emploi</button>
+       <div class="panel"></div>
+
+       <button class="accordion"> Ma classe</button>
+        <div class="panel">
+          <button class="accor acc" onclick="window.location.href = '/MySite/etd_profile.html';" >  Profile</button>
+          <button class="accor acc" onclick="window.location.href = '/MySite/etd_class_prof.html';" >  Les professeurs</button>
+          <button class="accor acc" onclick="window.location.href = '/MySite/etd_class_mod.html';" >  Les modules</button>
+          <button class="accor acc" onclick="window.location.href = '/MySite/etd_class_etd.html';" >  L'étudiants</button>
+        </div>
+
+       <button class="accordion"> Les emplois</button>
+        <div class="panel">
+         <button class="accor acc" onclick="window.location.href = '/MySite/etd_emp_grp.html';" > Les groups</button>
+         <button class="accor acc" onclick="window.location.href = '/MySite/etd_emp_prof.html';" > Les professeurs</button>
+        </div>
+         
+        <button class="accordion"> Les cours</button>
+        <div class="panel">
+         <button class="accor acc" onclick="window.location.href = '/MySite/etd_cour_cour.html';" > Cour</button>
+         <button class="accor acc" onclick="window.location.href = '/MySite/etd_cour_td.html';" > TD</button>
+         <button class="accor acc" onclick="window.location.href = '/MySite/etd_cour_tp.html';" > TP</button>
+         <button class="accor acc" onclick="window.location.href = '/MySite/etd_cour_docu.html';" > Documentation</button>
+         <button class="accor acc" onclick="window.location.href = '/MySite/etd_cour_exam.html';" > Anciens Examens</button>
+        </div>
+
+        <button class="accordion">  Délibération</button>
+        <div class="panel">
+            <button class="accor acc" onclick="window.location.href = '/MySite/etd_déli_note.html';" > les notes</button>
+        </div>
+
+        <button class="accordion" id="myBtn">  Contactez-nous</button>
+        <div class="panel">
+        </div>
+
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+              
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+                                            
+<div class="container">
+  <form action="/action_page.php">
+    
+    <select id="country" name="country" >
+      <option >Qui être-vous </option>
+      <option value="australia">Admin</option>
+      <option value="canada">Enseignant</option>
+      <option value="usa">Etudiant</option>
+    </select>
+    <input type="numbre" id="fname" name="numbre" placeholder="  Matricule" required>
+    <textarea id="subject" name="subject" placeholder="   Message..." style="height:150px" required></textarea>
+    <input type="submit" value="Enveyer">
+      <input type="reset" class="réinilialiser">
+  </form>
+</div>
+
+  </div>
+
+</div>
+</div>
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <div style=" width:77% ; height: 100%; background: transparent;  padding: 5px;   position: absolute; right: 0;">
+
+
+    <form class="etd_form" action="" style="background: rgb(202, 224, 228); ">
+      <table class="etd_tabl " style="  " border="0" cellspacing="0" align="center" >
+          
+          <tr  class="ftr htr empl" >
+              <td colspan="8"> <h4  class="etd_titre" > L'EMPLOI DU TEMPS</h4> </td>  
+          </tr>
+             <tr  class="ftr htr"  >
+              <td>TEMPS</td>    <td>Sam</td>  <td>Dim</td>  <td>Lun</td>  <td>Mar</td>  <td>Mer</td>  <td>Jeu</td>  
+             </tr>
+             <tr >
+              <td class="ftr" >08:00 - 09:30</td>   <td><button > TD. LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>
+             </tr>
+             <tr >
+              <td class="ftr">09:40 - 11:10</td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>
+             </tr>
+             <tr >
+              <td class="ftr">11:20 - 12:50</td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>
+             </tr>
+             <tr >
+              <td class="ftr">13:00 - 14:30</td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>
+             </tr>
+             <tr >
+              <td class="ftr">14:40 - 16:10</td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>
+             </tr>
+             <tr >
+              <td class="ftr">16:20 - 17:50</td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>   <td><button > LM </button></td>
+             </tr>
+             
+       </table>
+       
+     </form>
+  </div> 
+
+</div>
+
+<!-- <div style="width: 100%; height: 50px; background:#c47878 ; "><i class="material-icons">attachment</i></div> -->
+
+
+    <footer class="etd-foot"  >
+        <div class="etd_foot1" >
+            <div class="etd_foot11" >
+                
+                    <h3 style="background-color:; font-family: Lato, sans-serif;font-weight: 100;color: white; font-size: 25px; color:  #56b3c4; ">Liens directs</h3>
+                    <br>
+                    <ul style="line-height:180% ;  font-family: Lato, sans-serif; font-size: 14px;color: white;">
+                        <li><a id="li1"  href="Connecter.html">&nbsp;Espace numérique de travail</a></li>
+                        <li><a id="li1"  href="#">&nbsp;Messagerie</a></li>
+                    </ul>
+                
+            </div>
+
+            <div class="etd_foot12" >
+                <h3 style="background-color:; font-family: Lato, sans-serif;font-weight: 100;color: white; font-size: 25px; color:  #56b3c4;">Coordonnées</h3><br>
+                <ul style="line-height:180%">
+                  <li id="li3"  ><i  style="color: white;" class="fa fa-phone"></i>  &nbsp &nbsp   Tél   +213 (0) 29 71 19 02 / +213 (0) 29 71 24 68 &nbsp&nbsp</li>
+                  <li id="li3"  ><i style="color: white;" class="fa fa-fax"></i>  &nbsp &nbsp Fax &nbsp  +213 (0) 29 71 36 54 </li>
+                  <li id="li3" ><i style="color: white;" class="fa fa-envelope"></i> &nbsp &nbsp  contact@univ-ouargla.dz</li>
+                  <li id="li3" ><i style="color: white;" class="fa fa-map"></i>  &nbsp &nbsp   BP 511 Route de Ghardaia,  30 000 - OUARGLA. </li>
+                </ul> 
+            </div>
+
+            <div class="etd_foot13" >
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a id="li1" style="font-size: 150%;" href="https://www.facebook.com/media.univouargla" class="fa fa-facebook"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a id="li1" style="font-size: 150%;" href="https://twitter.com/univogxav" class="fa fa-twitter"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a id="li1" style="font-size: 150%;" href="https://www.linkedin.com/in/universit%C3%A9-kasdi-merbah-ouargla-official-6477ab237/" class="fa fa-linkedin"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a id="li1" style="font-size: 150%;" href="https://www.youtube.com/channel/UC_33PpCOyB6uXDNq_8znLqg" class="fa fa-youtube"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

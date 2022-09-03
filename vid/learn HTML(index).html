@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html>
+<!-- realiser un commentaire comme ça! -->
+
+<head>
+  <title>Learn HTML(index)</title>
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+
+  <style>
+    body {
+      background-color: rgb(240, 244, 247);
+    }
+
+    th {
+      border: 1px solid black
+    }
+
+    li {
+      background: #e33e32;
+      margin: 1px;
+      padding: 5px;
+      color: white;
+    }
+
+    meter::-webkit-meter-bar {
+      background: #d1d1d1;
+    }
+
+    /*background color of bar*/
+    meter::-webkit-meter-optimum-value {
+      background: green;
+    }
+
+    meter::-webkit-meter-suboptimum-value {
+      background: orange;
+    }
+
+    meter::-webkit-meter-even-less-good-value {
+      background: red;
+    }
+
+    meter {
+      height: 40px;
+      width: 200px;
+    }
+
+    #content {
+      width: 1675px;
+      height: 500px;
+      margin: 0px;
+
+    }
+
+    header {
+      width: 750px;
+      height: 50px;
+      background: rgb(4, 4, 145);
+      float: left;
+    }
+
+    section {
+      width: 80px;
+      height: 50px;
+      background: white;
+
+    }
+
+    nav {
+      width: 170px;
+      height: 50px;
+      background: red;
+      float: right;
+    }
+
+    aside {
+      width: 120px;
+      height: 550px;
+      background: rgb(47, 111, 230);
+      float: left;
+    }
+
+    main {
+      width: 880px;
+      height: 550px;
+      background: rgb(226, 226, 226);
+      float: right;
+    }
+
+    main article {
+      float: left;
+      margin: 10px;
+      width: 420px;
+      height: 163px;
+      background: rgb(84, 230, 84);
+      text-align: center;
+    }
+
+    footer {
+      clear: both;
+      width: 100%;
+      height: 20px;
+      background: rgb(76, 22, 175);
+    }
+
+    #idHeader {
+      height: 60px;
+
+    }
+
+    .h {
+      font-size: 22px;
+    }
+
+    .header {
+      height: 80px;
+      background: rgb(24, 62, 146);
+      border-radius: 5px;
+
+    }
+
+    .bo {
+      color: white
+    }
+
+    .boup {
+      background-color: white;
+      color: rgb(24, 62, 146);
+    }
+
+    marquee span img {
+      width: 200px;
+      height: 150px;
+      object-fit: contain;
+      margin: 0 20px;
+
+    }
+
+    #marquee2 span {
+      font-family: monospace;
+      font-size: 22px;
+      font-weight: bold;
+      background: rgb(68, 65, 65);
+      color: white;
+      margin: 0px 10px;
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body dir="ltr">
+  <div dir="rtl">
+    <h2> مرحبا بوب <h2>
+  </div>
+  <b> Defines bold tekst &emsp;</b>
+  <em> Defines emphasized text </em><br><br>
+  <i> Defines italic text &emsp;</i>
+  <small> Defines smaller text </small><br><br>
+  <strong> Defines important y text &emsp;</strong>
+  <ins> Defines inserted text </ins><br><br>
+  <del> Defines deleted text </del><br><br>
+  <mark> Defines marked/highlighted text </mark><br>
+
+
+  <h1 style="color:rgb(199, 46, 46)"> boup humble </h1>
+  <h2> boup humble </h2>
+  <h3> boup humble </h3>
+
+  <!-- -------------------------------------------- Vidéo 6--------------------------------------------------- -->
+  <a href="https://www.facebook.com/kava.bengourion.35/"> My FACEBOOK ! (mémé onglet)</a> <br>
+  <a href="https://www.facebook.com/kava.bengourion.35/" target="_blank"> My FACEBOOK ! (nouvel onglet) </a><br>
+  <a href="file:///C:/Users/pc/Desktop/Site%20Web/contact_nous.html"> contact nous ! </a><br>
+  <a href="contact_nous.html"> contact nous ! </a><br>
+
+  <a href="mailto:bouphumble@gmail.com"> bouphumble@gmail.com </a><br>
+  <a href="tel:05678569"> 0567856958588 </a><br>
+
+  <h1 id="prémier parté" style="height: 400px; background: rgb(163, 102, 102);">
+    <a href="#deuxiéme parté"> prémier parté <p style="color:black"> boup humble </p></a>
+    <a href="#troixéme parté" style="color:black"> vers à troixéme parté</a>
+  </h1>
+
+  <h1 id="deuxiéme parté" style="height: 300px; background: rgb(88, 88, 143);">
+    <a href="#troixéme parté" style="color:black"> deuxiéme parté</a>
+  </h1>
+
+  <h1 id="troixéme parté" style="height: 180px; background: rgb(132, 69, 196);">
+    <a href="#prémier parté" style="color:black"> troixéme parté</a>
+  </h1>
+  <!-- ----------------------------------------------Vidéo 7----------------------------------------------- -->
+  <a href="https://earth.google.com/web/@33.26084315,4.18640805,594.4166442a,1088.33607031d,35y,-0.00000271h,4.39739904t,0r"
+    target="_blank">
+    <img src="soffar.jpg" alt=" image sahara soffar " width="100%" />
+    <h3> image sahar Soffar </h3>
+  </a>
+  <a href="https://pixabay.com/fr/photos/l-alg%C3%A9rie-le-d%C3%A9sert-du-tassili-5335906/" target="_blank">
+    <img src="https://cdn.pixabay.com/photo/2020/06/24/11/57/algeria-5335906_960_720.jpg" alt=" le désert algérien " />
+    <h3> le désert algérien </h3>
+  </a>
+  <!-- ----------------------------------------------Vidéo 8----------------------------------------------- -->
+  <table width="100%">
+    <thead>
+      <tr>
+        <th>Nom</th>
+        <th>Prénom</th>
+        <th>Numéro Tél</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td style="border:1px solid black">boup</td>
+        <td style="border:1px solid black">humble</td>
+        <td style="border:1px solid black">03456464</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid black" colspan="2">jack</td>
+
+        <td style="border:1px solid black">03357658735</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <td style="border:1px solid black">ajouter nom</td>
+        <td style="border:1px solid black">ajouter prénom</td>
+        <td style="border:1px solid black">ajouter ném_tél</td>
+      </tr>
+    </tfoot>
+
+  </table>
+  <!-- ----------------------------------------------Vidéo 9----------------------------------------------- -->
+
+  <p>html pour site web</p>
+  <p> apprendre les tout les informations </p>
+  <p>cour vidéo 9 </p>
+
+  <ol type="1" start="1">
+
+    <li> <a href="https://www.youtube.com/watch?v=QbqeYSxHLv0&list=PLMTdZ61eBnyrnapIyOphXAkIcR5DDOGkz&index=11"
+        target="_blank"> channel youtube </a> </li>
+    <li> <a href="https://github.com/codershiyar/html/blob/master/%D8%A7%D9%84%D8%AF%D8%B1%D8%B3%209/index.html"
+        target="_blank"> code text </a> </li>
+  </ol>
+
+  <!-- ----------------------------------------------Vidéo 10----------------------------------------------- -->
+  <audio src="" controls autoplay loop> </audio><br>
+  <!-- ----------------------------------------------Vidéo 11----------------------------------------------- -->
+  <video src="Google_data.mp4" preload="metadata" controls width="100%" height="10%" poster="flor.jpg"></video>
+  <!-- ----------------------------------------------Vidéo 12----------------------------------------------- -->
+  <embed src="mémoire.pdf" width="100%" height="500" type="application/pdf" />
+  <!-- ----------------------------------------------Vidéo 14----------------------------------------------- -->
+  <iframe width="460" height="258.75" src="https://www.youtube-nocookie.com/embed/XZmGGAbHqa0?rel=0"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+  <!-- ----------------------------------------------Vidéo 16----------------------------------------------- -->
+  <div style="max-width: 800px; margin: auto;">
+    <details style="background: orangered; font-weight:bold; color: white; padding: 10px;">
+      <summary style="border: 2px solid white; padding: 10px; "> Learn how to create site web</summary>
+      <a href="https://www.youtube.com/playlist?list=PLMTdZ61eBnyrnapIyOphXAkIcR5DDOGkz">
+        <p style="color:rgb(255, 255, 255)" ;>Learn HTML</p>
+      </a>
+      <a href="https://www.youtube.com/playlist?list=PLMTdZ61eBnyrnapIyOphXAkIcR5DDOGkz">
+        <p style="color:rgb(255, 255, 255)" ;>learn CSS</p>
+      </a>
+      <a href="https://www.youtube.com/playlist?list=PLMTdZ61eBnyrnapIyOphXAkIcR5DDOGkz">
+        <p style="color:rgb(255, 255, 255)" ;>learn JavaScript</p>
+      </a>
+      <a href="https://www.youtube.com/playlist?list=PLMTdZ61eBnyrnapIyOphXAkIcR5DDOGkz">
+        <p style="color:rgb(255, 255, 255)" ;>learn PHP & API</p>
+      </a>
+      <a href="https://www.youtube.com/playlist?list=PLMTdZ61eBnyrnapIyOphXAkIcR5DDOGkz">
+        <p style="color:rgb(255, 255, 255)" ;>learn MySqL</p>
+      </a>
+    </details>
+  </div>
+  <!-- ----------------------------------------------Vidéo 17 & 18----------------------------------------------- -->
+
+
+  <div style="max-width: 340px; margin: auto;">
+    <h4 style="background: blueviolet; font-weight:bold; color: white; padding: 10px;" ;>
+      <form align="center">
+        <br>
+        <a style="color: white;" href="https://www.facebook.com/kava.bengourion.35/">
+          <h2> My facebook page</h2>
+        </a>
+        <br>
+        <input type="email" name="email" placeholder="Email" required /> <br>
+        <input type="password" name="password" placeholder="Password" required /> <br>
+        <input style="width: 168px; height: 18px ; margin: auto" type="date" min="1990-01-01" max="2000-01-01"
+          value="2000-01-01" /><br>
+        <input type="tel" placeholder="téléphone" minlength="10" maxlength="10" /><br>
+        <input style="height: 45px ; margin: auto" type="text" placeholder="description" /><br><br>
+        <button type="submit" name="submit" formtarget="_blank"> énvoye </button>
+        <button type="reset" autofocus> rest</button><br><br><br><br>
+      </form>
+    </h4>
+  </div>
+  <!-- ----------------------------------------------Vidéo 18----------------------------------------------- -->
+  <!-- <input type="password" placeholder="ضع كلمة مرور" />
+  <input type="email" required  placeholder="ضع بريد الكتروني هنا" />
+  <input type="tel" placeholder="ضع هنا رقم هاتف" />
+  <input type="date" value="2010-12-29"/> -->
+
+  <form>
+    <input type="text" placeholder="ضع اسمك" name="name" minlength="3" required />
+    <input type="email" required placeholder="ضع بريد الكتروني هنا" name="email" />
+    <input min="1990-01-01" max="2000-01-01" type="date" value="2000-01-01" />
+
+    <button type="submit">تسجيل في الموقع</button>
+  </form><br><br>
+  <!-- min  max maxlength="" minlength=""  required  name-->
+
+  <!-- ----------------------------------------------Vidéo 19----------------------------------------------- -->
+  <form>
+    <table align="center">
+      <tr>
+        <td><input type="email" name="email" placeholder="Email*" required /></td>
+      </tr>
+      <tr>
+        <td><input type="password" name="password" placeholder="Password*" required /></td>
+      </tr>
+      <tr>
+        <td><button type="submit">Login</button></td>
+      </tr>
+      <tr>
+        <td><a href="indexx.html"> create account</a></td>
+        <td><a href="indexx.html"> forgat your password !</a></td>
+      </tr>
+    </table>
+  </form><br><br>
+  <!-- ----------------------------------------------Vidéo 20----------------------------------------------- -->
+  <p> séléctienne votre longage !</p>
+  <form>
+    <table>
+      <tr>
+        <td>
+          <select name="lang" required>
+            <option value="">Séléctienne</option>
+            <option disabled>Français</option>
+            <option value="English">English</option>
+            <option value="العربية">العربية</option>
+            <option value="Germany">Germany</option>
+            <option value="Chaina">Chaina</option>
+
+          </select>
+        </td>
+        <td><button type="submit">enregistre</button></td>
+      </tr>
+    </table>
+  </form><br>
+  <!--
+  autofocus
+  disabled
+  size
+  multiple
+ 
+  form
+  name
+  required
+  value
+-->
+  <form>
+    <table>
+      <tr>
+        <td><label>SEXE :</label></td>
+        <td>Homme<input type="radio" name="questionA" value="Homme" /></td>
+        <td>Famme<input type="radio" name="questionA" value="Famme" /><br></td>
+      </tr>
+      <tr>
+        <td><label>Expérience :</label></td>
+        <td>Débutant<input type="radio" name="questionB" value="Débutant" /></td>
+        <td>Moyen<input type="radio" name="questionB" value="Moyen" /></td>
+        <td>Expert<input type="radio" name="questionB" value="Expert" /><br></td>
+      </tr>
+      <tr>
+        <td><button type="submit"> Envoyer </button></td>
+      </tr>
+    </table>
+  </form>
+  <br><br><br>
+  <!-- ----------------------------------------------Vidéo 21----------------------------------------------- -->
+  <div style="max-width: 650px; height: 400px; margin: auto;" align="center">
+    <h4 style="background: rgb(32, 51, 134); font-weight:bold; color: white; padding: 60px;" ;>
+      <form>
+        <h2>Registration form</h2><img src="C:\Users\pc\Desktop\Site Web\logo.ico" alt=" logo " width="13%" />
+        <br><br><br><br><br><br><br>
+
+        <table>
+
+          <tr>
+            <td><label>name<span style="color:#e33e32">*</span></label></td>
+            <td><input type="name" name="name" required /></td>
+          </tr>
+          <tr>
+            <td><label>e_mail<span style="color:#e33e32">*</span></label></td>
+            <td><input type="email" name="email" required /></td>
+          </tr>
+          <tr>
+            <td><label>date of Birth<span style="color:#e33e32">*</span></label></td>
+            <td><input type="date" name="date" min="1980-01-01" max="2007-01-01" required /></td>
+          </tr>
+          <tr>
+            <td><label>sexe <span style="color:#e33e32">*</span></label></td>
+            <td>
+              <select required>
+                <option value=""> séléctionné </option>
+                <option value="homme"> homme</option>
+                <option value="famme"> famme</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label>password<span style="color:#e33e32">*</span></label></td>
+            <td><input type="password" name="password" required /></td>
+          </tr>
+          <tr>
+            <td><label>confirmer your password<span style="color:#e33e32">*</span></label></td>
+            <td><input type="password" name="password" required /></td>
+          </tr>
+
+          <tr>
+            <td><label>Upload your photo<span style="color:#e33e32">*</span></label></td>
+            <td>
+              <input style="    color: red;" type="file" accept="video/*,.pdf" name="file" required />
+            </td>
+          </tr>
+        </table> <br><br><br>
+        <button type="submit" name="submit" formtarget="_blank"> Enregistre les informations </button>
+        <input type="reset">
+      </form>
+    </h4>
+  </div>
+  <br><br><br><br><br> <br> <br> <br> <br> <br> <br>
+  <!-- ----------------------------------------------Vidéo 21----------------------------------------------- -->
+  <!-- ----------------------------------------------Vidéo 22----------------------------------------------- -->
+  <!-- ----------------------------------------------Vidéo 23----------------------------------------------- -->
+  <!DOCTYPE html>
+  <html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Coder Shiyar</title>
+
+  </head>
+
+  <body dir="rtl">
+
+    <form>
+      <p> قم بتحديد جنسك</p>
+      <label>ذكر</label>
+      <input type="radio" name="gender" value="ذكر" required />
+
+      <label> أنثى</label>
+      <input type="radio" name="gender" value="أنثى" required />
+
+
+      <table>
+        <tr>
+          <td>
+            <p>LANGAGE !</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <input type="radio" name="language" value="Français" required autofocus />
+          </td>
+          <td><label>Français</label> </td>
+        </tr>
+
+        <tr>
+          </td>
+          <td>
+            <input type="radio" name="language" value="العربية" required />
+          </td>
+          <td> <label>العربية</label>
+        </tr>
+
+        <tr>
+          </td>
+          <td>
+            <input type="radio" name="language" value="English" required disabled />
+          </td>
+          <td><label>English</label></td>
+        </tr>
+
+        <tr>
+          <td> <button type="submit">Envoyer</button> </td>
+        </tr>
+      </table>
+      <input type="reset">
+    </form>
+
+  </body>
+
+  </html>
+
+  <!-- 
+  
+    autofocus
+    checked
+    disabled
+  
+    name
+    value
+  -->
+  <br><br>
+  <!-- ----------------------------------------------Vidéo 24----------------------------------------------- -->
+  <form>
+    <button type="button" onclick="document.getElementById('fileyoursite').click()">Choose a file</button>
+    <input id="fileyoursite" style="display: none;" type="file" accept="video/*,.pdf" name="file" required />
+    <button type="submit">Send</button>
+  </form>
+  <!-- ----------------------------------------------Vidéo 25----------------------------------------------- -->
+  <form method="get">
+    <input type="checkbox" name="married" value="YES"> you are merried ?<br>
+    <input type="checkbox" name="married" value="YES"> you are merried ?<br>
+    <input type="checkbox" name="married" value="YES"> you are merried ?<br>
+    <input type="checkbox" name="married" value="YES"> you are merried ?<br>
+    <input type="url" name="url" placeholder="http://exemple.com">
+    <button type="submit"> Envoyer</button>
+    <br>
+    <input type="search" name="search" maxlength="200" required>
+    <button type="submit"> Search</button>
+    <br>
+    <input type="range" max="100" min="0">
+    <br>
+    <input type="number" name="number" max="2000" min="-200">
+    <br>
+    <input type="reset">
+    <input type="button" onclick="alert('Hello World!')" value="Click Me!">
+  </form>
+  <!-- ----------------------------------------------Vidéo 26----------------------------------------------- -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ----------------------------------------------Vidéo 27----------------------------------------------- -->
+  <!-- Parcourir entre les pages…  -->
+  <!-- ----------------------------------------------Vidéo 28----------------------------------------------- -->
+  <form>
+
+    <table>
+      <tr>
+        <td>etudiant 1 </td>
+        <td>
+          <meter min="0" max="100" value="90" low="50" high="70" optimum="100"></meter>
+
+        </td>
+      </tr>
+
+      <tr>
+        <td>etudiant 2 </td>
+        <td>
+          <meter min="0" max="100" value="60" low="50" high="70" optimum="100"></meter>
+        </td>
+      </tr>
+
+      <tr>
+        <td>etudiant 3 </td>
+        <td>
+          <meter min="0" max="100" value="40" low="50" high="70" optimum="100"></meter>
+
+        </td>
+      </tr>
+    </table>
+
+  </form>
+
+  <!--
+    min 
+    max
+    low
+    high
+    optimum
+    value
+  -->
+  <!-- ----------------------------------------------Vidéo 29----------------------------------------------- -->
+
+  <textarea style="width: 20%; /* Full width */
+                      height: 120%;
+                      margin: 15px;
+                      font-size: 18px;
+                      font-style: italic ;
+                      padding: 0px;
+                      border-radius: 2px;" required rows="4" placeholder="écree un message..." name="sms"></textarea>
+  <button type="submit">Envoyer</button>
+
+
+  <!--
+Textarea :
+
+placeholder
+autofocus
+cols
+maxlength
+rows 
+
+name
+required
+
+
+-->
+  <!-- ----------------------------------------------Vidéo 30----------------------------------------------- -->
+
+  <body>
+    <a href="https://academy.codershiyar.com/" target="_blank"> academy shiyar </a>
+    <iframe width="90%" sandbox="allow-forms allow-scripts allow-modals allow-same-origin" allowfullscreen height="400"
+      src="https://facebook.com/"></iframe>
+
+  </body>
+
+
+  <!--
+  إذا كان موقعك يملك حماية من نوع 
+  http
+  فيمكنك عرض مواقع الذي يملك حماية من نوع 
+  https 
+  ضمن موقعك 
+  ---------
+  ولكن إن كان موقعك يملك حماية من نوع 
+  https
+  فلا يمكنك عرض مواقع أخرى الذي يملك حماية من نوع 
+  http 
+  https://www.cyber-arabs.com/%D8%A7%D9%84%D9%81%D8%B1%D9%82-%D8%A8%D9%8A%D9%86-http-%D9%88-https/
+  في الأسم دومين 
+-----------
+  src
+  allowfullscreen
+  height
+  width
+sandbox	allow-forms 
+allow-pointer-lock
+allow-popups
+allow-same-origin
+allow-scripts
+allow-top-navigation	Enables an extra set of restrictions for the content in an <iframe>
+-->
+  <!-- ----------------------------------------------Vidéo 31----------------------------------------------- -->
+  <h2> Coder Shiyar </h2>
+  <hr style="background:rgb(255, 55, 92); height:4px; border:0px;" />
+  <h2>Learn Html </h2>
+  <!-- ----------------------------------------------Vidéo 32----------------------------------------------- -->
+  <p>I like to learn :
+    1: html
+    2: css
+  </p>
+  <pre>I like to learn    :
+    
+    1: html 
+
+    2: css
+  </pre>
+
+  <!-- ----------------------------------------------Vidéo 33----------------------------------------------- -->
+
+  <h1> Coder <div> <img src="logo.ico" alt=""> </div>
+  </h1>
+  <h1><span> <img src="logo.ico" alt=""> </span> Coder <span> <img src="logo.ico" alt=""> </span> </h1>
+  <br><br><br><br>
+  <div> Coder <label> Shiyar</label> </div>
+  <span> Coder <label> Shiyar</label> </span>
+  <!-- ----------------------------------------------Vidéo 34----------------------------------------------- -->
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3234.096836979132!2d1.6200313144373673!3d35.846628980156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4812ecbd8d9591a1!2zMzXCsDUwJzQ3LjkiTiAxwrAzNycyMC4wIkU!5e0!3m2!1sfr!2sdz!4v1659251462860!5m2!1sfr!2sdz"
+    width="80%" height="260" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <!-- ----------------------------------------------Vidéo 35----------------------------------------------- -->
+
+  <!-- ----------------------------------------------Vidéo 36----------------------------------------------- -->
+  <p dir="rtl"> اسمي باللغة انجليزية boup humble </p>
+  <p> User بوب 2021 </p>
+  <p> User <bdi> بوب</bdi> 2021 </p>
+  <!-- ----------------------------------------------Vidéo 37 & 38----------------------------------------------- -->
+  <div id="content">
+
+
+    <header></header>
+
+    <nav></nav>
+
+    <section></section>
+
+    <aside> </aside>
+    <main>
+      <article>
+        <img src="img/adi.jpg" height="80%" width="100%" style="object-fit: cover" />
+        <h3 style="margin: -3px;background: white; padding: 6px 1.5px; width: 420px; height: 21px; float: left;">
+          boup_algo </h3>
+      </article>
+      <article>
+        <img src="img/bibl.jpg" height="80%" width="100%" style="object-fit: cover" />
+        <h3 style="margin: -3px;background: white; padding: 6px 1.5px; width: 420px; height: 21px; float: left;">
+          boup_algo </h3>
+      </article>
+      <article><img src="img/flor.jpg" height="80%" width="100%" style="object-fit: cover" />
+        <h3 style="margin: -3px;background: white; padding: 6px 1.5px; width: 420px; height: 21px; float: left;">
+          boup_algo </h3>
+      </article>
+      <article>
+        <img src="img/biblnor.jpg" height="80%" width="100%" style="object-fit: cover" />
+        <h3 style="margin: -3px;background: white; padding: 6px 1.5px; width: 420px; height: 21px; float: left;">
+          boup_algo </h3>
+      </article>
+
+      <article>
+        <img src="algo.jpg" height="80%" width="100%" style="object-fit: cover" />
+        <h3 style="margin: -3px;background: white; padding: 6px 1.5px; width: 420px; height: 21px; float: left;">
+          boup_algo </h3>
+      </article>
+      <article>
+        <img src="algo.jpg" height="80%" width="100%" style="object-fit: cover" />
+        <h3 style="margin: -3px;background: white; padding: 6px 1.5px; width: 420px; height: 21px; float: left;">
+          boup_algo </h3>
+      </article>
+    </main>
+
+    <footer> </footer>
+
+  </div>
+
+  <!-- 
+<section></section>   
+<header></header>
+<nav></nav>
+<main></main>
+<footer></footer>
+<article></article>
+<aside></aside> 
+-->
+  <!-- ----------------------------------------------Vidéo 39----------------------------------------------- -->
+  <p> 10 <sup> 2</sup></p>
+  <p> My name : <sup>boup </sup> </p>
+
+  <p> 10 <sub> 2</sub></p>
+  <p> My name : <sub>humble </sub> </p>
+  <p> <sup>boup </sup> <sub>humble </sub> </p>
+  <!-- ----------------------------------------------Vidéo 40----------------------------------------------- -->
+  <fieldset>
+    <legend>
+      <h3>Contact us - تواصل معنا </h3>
+    </legend>
+    <h4> Phone number - <bdi>رقم هاتف </bdi> : 09382573489 </h4>
+    <h4> Email <bdi>بريد الكتروني </bdi> : test@gmail.com </h4>
+  </fieldset>
+
+  <!--
+    The <fieldset> tag is used to group related elements in a form.
+
+    يتم استخدام علامة 
+    <fieldset> 
+    لتجميع العناصر ذات الصلة
+
+   The <fieldset> tag draws a box around the related elements.
+
+    ترسم علامة 
+    <fieldset> 
+    مربعًا حول العناصر ذات الصلة.
+
+   The <legend> tag defines a caption for the <fieldset> element.
+
+    تحدد العلامة 
+    <legend> 
+        تسمية توضيحية لعنصر
+    <fieldset>.
+
+-->
+
+  <!-- ----------------------------------------------Vidéo 41----------------------------------------------- -->
+
+  <header class="classHeader header" id="idHeader">
+    <p class="boup j"> hello BOUP </p>
+    <h2 class="bo h"> how are you </h2>
+  </header>
+  <br><br>
+  <br><br>
+
+  <header class="classHeader header" id="idHeade">
+    <h1 class="boup k"> hello BOUP </h1>
+    <h3 class="bo k"> how are you </h3>
+  </header>
+
+  <!--  <script>
+    document.getElementById("idHeader").remove()
+</script> -->
+  <!-- ----------------------------------------------Vidéo 42 & 43----------------------------------------------- -->
+
+  <link rel="icon" href="logo.jpg" />
+  <link rel="shortcut" href="logo.jpg" />
+  <link rel="apple-touch-icon" href="logo.jpg" />
+
+  <!--
+	
+	"shortcut"
+	"icon"
+	"apple-touch-icon"
+	
+	-->
+
+  <!--
+	    <title> </title> 
+	    <meta name="Description"">
+	
+	    https://keywordtool.io/youtube
+	    
+	    https://rapidtags.io/generator/
+	
+	    <meta name="keywords">
+	    <meta name="author">
+	
+	-->
+
+  <!--
+	    hspace يوفر مساحة أفقية ويمكن أن تكون قيمتها مثل
+	    : hspace = "20" أو hspace = "30٪"
+	
+	
+	    يوفر مساحة عمودية ويمكن أن تكون قيمتها مثل:
+	     vspace = "20" أو vspace = "30٪"
+	
+	     bgcolor 
+	     يوفر لون خلفية حيث ستكون القيمة إما اسم اللون أو رمز اللون الست عشري.
+	
+	     loop 
+	     يوفر عدد المرات التي ستدور فيها النص
+	
+	     behavior 
+	     يوفر نوع التمرير في سرادق. 
+	     يمكن ان يكون
+	     sliding, scrolling , alternate
+	
+	    scrollamount يوفر قيمة لتسريع ميزة المظلة
+	
+	    scrolldelay يوفر ميزة سيتم استخدام قيمتها للتأخير بين كل قفزة.
+	
+	    direction  
+	    يوفر الاتجاه أو الطريقة التي سيسمح لك فيها الشاشة الاسمية بالتمرير. يمكن أن تكون قيمة هذه السمة: يسارًا أو يمينًا أو لأعلى أو لأسفل
+	
+	     left, right, up , down
+	    
+	
+	     height  لتحديد الارتفاع العنصر
+	
+	     width      لتحديد العرض العنصر  
+	-->
+
+  <!-- ----------------------------------------------Vidéo 44----------------------------------------------- -->
+  <br><br><br><br><br><br><br>
+  <address>66865656E5E56</address>
+
+  <p>67564486655646</p>
+
+  <div>3534676878890</div>
+
+  <abbr title="Hypertext Markup Language">HTML</abbr>
+
+  <code>45547356878</code>
+  <dfn>546657687979</dfn> <br><br>
+  <!-- ----------------------------------------------Vidéo 45----------------------------------------------- -->
+  <!--  //  n'regarde pas cette vidéo !  //-->
+  <!-- ----------------------------------------------Vidéo 46----------------------------------------------- -->
+  <a href="../Eqc7Nl.png" download> télécharger</a>
+  <!-- ----------------------------------------------Vidéo 47----------------------------------------------- -->
+  <p> Learn html with <q> Coder Shiyar </q> </p>
+
+  <p> Learn html with <span> Coder Shiyar </span> </p>
+
+
+  <center style="background: rgb(247, 49, 49);width: 200px;">
+    Coder Shiyar
+    <img src="../Eqc7Nl.png" width="150" />
+  </center>
+
+  <div style="background: rgb(63, 211, 63); width: 200px; text-align: center;">
+    Coder Shiyar
+    <img src="../Eqc7Nl.png" width="150" />
+  </div>
+
+  <blockquote cite="https://codershiyar.com"> Coder sHIYAR </blockquote>
+
+  <p> Coder sHIYAR</p>
+  <!-- ----------------------------------------------Vidéo 48----------------------------------------------- -->
+  <!-- true  صح 
+        false  خطا
+    -->
+
+  <span id="text"> Coder Shiyar </span>
+  <button onclick="save()" type="button"> حفظ</button>
+  <button onclick="edit()" type="button">تعديل </button>
+
+  <script>
+    function save() {
+      document.getElementById("text").contentEditable = "false";
+    }
+    function edit() {
+      document.getElementById("text").contentEditable = "true";
+    }
+  </script><br>
+  <!-- ----------------------------------------------Vidéo 49----------------------------------------------- -->
+  <button onclick="openDialog()"> عرض مزيد</button>
+  <dialog id="box">
+    <button style="background: red; color: white; border: 0px; " onclick="closeDialog()">X</button>
+    <h2>Node JS </h2>
+    <img src="../Eqc7Nl.png" width="200" />
+    <br>
+  </dialog>
+
+  <script>
+    function openDialog() {
+      document.getElementById("box").setAttribute("open", "true");
+    }
+    function closeDialog() {
+      document.getElementById("box").removeAttribute("open");
+    }
+  </script>
+  <!-- ----------------------------------------------Vidéo 50----------------------------------------------- -->
+  <!-- ----------------------------------------------Vidéo 51----------------------------------------------- -->
+  <!-- <marquee scrollamount="20"  loop="4" bgcolor="#ff4343" vspace="10" hspace="10" height="60" width="300" behavior="scroll" direction="down">
+            
+            <div> Learn HTML </div>
+            <div> Learn CSS </div>
+        
+        </marquee> -->
+
+  <marquee style="  background: #f75151;" scrollamount="10" direction="left">
+    <span> <a href="https://codershiyar.com"> <img src="img/bibl.jpg" alt=""> </a> </span>
+    <span> <a href=""> <iframe width="90%" sandbox="allow-forms allow-scripts allow-modals allow-same-origin"
+          allowfullscreen height="400" src="https://facebook.com/"></iframe></a> </span>
+    <span> <a href=""></a> <img src="img/flor.jpg" alt=""> </a> </span>
+    <span> <a href=""></a> <img src="img/livreo.jpg" alt=""> </a> </span>
+    <span> <a href=""></a> <img src="img/logo.ico" alt=""> </a> </span>
+  </marquee>
+
+  <marquee id="marquee2">
+    <span> اخبار العاجلة</span>
+    <span> الاخبار العالمية </span>
+    <span> اخبار الوطن </span>
+  </marquee>
+
+
+  <!-- Attribute	        Value	            Description
+                                             لتحديد خلفية العنصر بالالوان
+    bgcolor	rgb(x,x,x)  #xxxxxx colorname	Is used to give a background color.
+                                            لتحديد العرض العنصر        
+    height	            pixels , %	        Defines the marquee's height.
+                                            لتحديد ارتفاع العنصر  
+    width               pixels , %          Defines the marquee's width.
+                                            لتحديد كيفية تصرف العنصر عند العمل
+    behavior	    scroll,slide,alternate  Defines the scrolling type.
+                                            لتحديد الاتجاه العنصر , ويمكن اعطى القيمة التالية
+    direction	up , down , left , right	Sets the direction for the scrolling content.
+                                           
+                                            يقوم بإضافة هامش حول العنصر للجهة اليمين واليسار
+    hspace	            pixels          	Defines horizontal space around the marquee.
+    
+                                            يقوم بإضافة هامش حول العنصر للجهة الاعلى الأسفل
+    vspace	            pixels          	Defines vertical space around the marquee.
+                                            لتحديد العدد مرات تكرار العرض  
+    loop	            number	            Defines how many times the content will scroll. 
+                                            If we don't define this, the content will scroll forever.
+                                           
+                                            يحدد السرعة تمرير العناصر الذي تتواجد ضمن العنصر
+    scrollamount	    number	            Defines the scrolling amount at each interval in pixels. Default value is 6.
+ -->
+
+  <!-- ----------------------------------------------Vidéo 52----------------------------------------------- -->
+  <form>
+    <input name="email" type="email" required oninvalid="error_message(this)" oninput="error_message(this)" />
+    <input name="sms" type="text" required oninvalid="error_message1(this)" oninput="error_message1(this)" />
+    <br>
+    <select name="language" required oninvalid="this.setCustomValidity('رجاء قم بتحديد احد الخيارات')">
+      <option value=""> اختار لغتك </option>
+      <option value="kurdish"> الكردية </option>
+      <option value="arabic"> العربية </option>
+      <option value="english"> الإنجليزية</option>
+    </select>
+    <button type="submit"> تسجيل </button>
+  </form>
+
+  <script>
+    function error_message(input) {
+      if (input.value == '') {
+        // هنا ضمن اقتباس النصي يمكنك تحديد الرسالة الخطا الذي ترغب بعرضها للمستخدم في حال لم يقوم بتعبئة او تحديد بيانات لأجل الحقول الإجبارية
+        input.setCustomValidity('رجاء قم بتعبئة البيانات');
+      } else if (input.validity.typeMismatch) {
+        // هنا ضمن اقتباس النصي يمكنك تحديد الرسالة الخطا الذي ترغب بعرضها للمستخدم في حال قام  بتعبئة البيانات ولكن البيانات كانت غير صالحة
+        input.setCustomValidity('بريد الكتروني غير صالح , قم بتجربة بريد مختلف');
+      }
+      else {
+        //هنا في حال قام المستخدم بتعبئة البيانات وبيانات كانت صالحة , سوف يخفي الرسالة الخطا , ويجعل الزر من نوع سوبميت قابل للنقر لارسال البيانات عبر فورم
+        input.setCustomValidity('');
+      }
+      return true;
+    }
+
+    function error_message1(input) {
+      if (input.value == '') {
+        input.setCustomValidity('رجاء قم بوضع رسالة او نص');
+      } else if (input.validity.typeMismatch) {
+        input.setCustomValidity('بريد الكتروني غير صالح , قم بتجربة بريد مختلف');
+      }
+      else { input.setCustomValidity(''); }
+      return true;
+    }
+  </script>
+
+
+
+  <!-- function error_message(input){         
+if (input.value == '') 
+// ضع هنا رسالة الذي ترغب بأن يتم عرضها
+// للمستخدم عند عدم وضع قيمة في حقل اجباري
+{ input.setCustomValidity('رجاء قم بتعبئة البيانات');}
+// ضع هنا رسالة الذي ترغب بأن يتم عرضها للمستخدم عند 
+// وضع قيمة غير صالحة في حقل النصي
+else if (input.validity.typeMismatch){
+input.setCustomValidity('رجاء تعبئة بيانات صالحة');
+}
+// ضع هنا رسالة الذي ترغب بأن يتم عرضها للمستخدم عند 
+// الوضع قيمة صالحة في الحقل الاجباري
+else{ input.setCustomValidity('');}
+  
+return true;      
+} -->
+  <!-- ----------------------------------------------Vidéo 53----------------------------------------------- -->
+  <!-- ----------------------------------------------Vidéo 54----------------------------------------------- -->
+  <!-- ----------------------------------------------Vidéo 55----------------------------------------------- -->
+</body>
+
+</html>
